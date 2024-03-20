@@ -11,7 +11,8 @@ public class dateDifferenceCalculator {
         String startDate = scanner.nextLine();
         System.out.println("End Date: ");
         String endDate = scanner.nextLine();
-        scanner.close(); // Don't forget to close scanner to reserve memory
+        // Don't forget to close scanner to reserve memory
+        scanner.close();
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         LocalDate parsedStartDate = LocalDate.parse(startDate, formatter);
