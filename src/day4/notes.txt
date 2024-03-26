@@ -1,0 +1,35 @@
+Method:
+A method is  a block of code that, when called, does defined actions.
+
+Call Stack:
+It is for managing method execution and variable scope. LIFO.
+
+Java is pass-by-value. The code here is just a demonstration on how pass-by-reference works.
+
+Variable Scope:
+- Loop scope
+Variables declared within a loop can only be accessed within the loop.
+This is referred to as loop scope.
+- Class Scope (Instances Variables)
+Instance variables are declared within a class but not in any methods.
+All methods within the class can access them, and if the variable is public, other classes can use them as well.
+This is referred tp as class scope.
+
+Return value:
+The return value of a method is the result that the method generates and returns to the caller.
+-Void Method
+Used to perform an action without returning any value.
+-Non-Void Method
+Returns a value.
+
+Method Overloading:
+Using the same method name that takes different parameters.
+
+Recursive method:
+Methods that call themselves to solve an issue.
+Best practices:
+- Base Case
+- Recursive case: each recursive call reduces the problem size to get closer to the base case
+- Efficiency
+Stack overflow:
+When the recursive method has no way to reach the end

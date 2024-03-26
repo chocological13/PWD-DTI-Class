@@ -1,0 +1,8 @@
+Errors: problem in the code, cannot be handled programmatically
+Exception: unexpected problem that occurs during the runtime of the program, can be handled programmatically
+
+Print exception(e) with /e.printStackTrace()/
+It will print out the error with the LIFO sort
+
+Checked exceptions: blocked codes from running
+Unchecked exceptions: will let the code run, but will stop when it gets to the exception

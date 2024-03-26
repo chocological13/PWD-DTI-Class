@@ -1,3 +1,5 @@
+package src.day2;
+
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

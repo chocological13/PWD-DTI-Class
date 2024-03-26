@@ -1,0 +1,6 @@
+Break - conditional statement
+Use break when you need to exit the loop before its condition becomes false
+This is often used in search operations where you're looking for a specific value and can stop searching once the value is found
+
+Continue
+Use continue when you need to skip the current iteration
