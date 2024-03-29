@@ -1,0 +1,8 @@
+Objects are instances of a class
+-> it is inside a class and has value and stuffs
+
+public: free for all
+private: only for the class itself
+protected: avail for class members within the same package as well as subclasses of the class, even if they are in a
+different package
+default (package-private): only accessible within its own package

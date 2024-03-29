@@ -4,9 +4,13 @@ public class palindromeNumber_2 {
 
   public static void main(String[] args) {
     int x = 12167;
+  }
 
-    // Initialize boolean for isPalindrome
-    boolean isPalindrome = false;
+  public static boolean isPalindrome(int x) {
+    // Negatives can't be palindromes
+    if (x < 0) {
+      return false;
+    }
 
     // Make a reverse of the x
     // Initialize an int to store reversed x
@@ -26,10 +30,6 @@ public class palindromeNumber_2 {
       temp /= 10;
     }
 
-    if (reversed == x) {
-      isPalindrome = true;
-    }
-
-    System.out.println(isPalindrome);
+    return reversed == x;
   }
 }
