@@ -1,0 +1,4 @@
+Inheritance: the subclass(child) inherits the methods of the superclass(parent)
+
+Polymorphism: the same method but to do different things
+ex: parents make noodles output is noodles with egg. child makes noodles, he makes spicy egg noodles.
