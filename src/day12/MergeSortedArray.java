@@ -1,5 +1,7 @@
 package src.day12;
 
+import static java.util.Collections.sort;
+
 import java.util.Arrays;
 
 public class MergeSortedArray {
@@ -28,21 +30,23 @@ public class MergeSortedArray {
       nums1[m+i] = nums2[i];
     }
 
-    int nums1Len = m +n;
-    for (int i = 0; i < nums1Len; i++) {
-      int minIndex = i;
-      for (int j = i + 1; j < nums1Len; j++) {
-        if (nums1[j] < nums1[minIndex]) {
-          minIndex = j;
-        }
-      }
-      if (minIndex != i) {
-        int temp = nums1[i];
-        nums1[i] = nums1[minIndex];
-        nums1[minIndex] = temp;
-      }
-    }
+//    int nums1Len = m +n;
+//    for (int i = 0; i < nums1Len; i++) {
+//      int minIndex = i;
+//      for (int j = i + 1; j < nums1Len; j++) {
+//        if (nums1[j] < nums1[minIndex]) {
+//          minIndex = j;
+//        }
+//      }
+//      if (minIndex != i) {
+//        int temp = nums1[i];
+//        nums1[i] = nums1[minIndex];
+//        nums1[minIndex] = temp;
+//      }
+//    }
 
+
+    Arrays.sort(nums1);
     System.out.println(Arrays.toString(nums1));
   }
 }
